@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <style>
+            #app {
+                height: 400px;
+                overflow-y: hidden;
+            }
+            .test {
+                transition: all 5s linear infinity;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="./dist/index.js"></script>
+        <script>
+            let st = new ScrollTable(
+                {
+                    cols: [
+                        {
+                            label: '啊啊所多',
+                            width: 150,
+                            prop: 'name'
+                        },
+                        {
+                            label: 'asda',
+                            width: 150,
+                            prop: 'age'
+                        },
+                        {
+                            label: '刘子老',
+                            prop: 'height',
+                            render: function(row, col, rowIndex, colIndex, context) {
+                                return `<div>堆空间哈三等奖</div>`
+                            }
+                        }
+                    ],
+                    head: {
+                        color: 'red',
+                        fontSize: 12
+                    },
+                    body: {
+                        backgroundColor: 'yellow',
+                        fontSize: 12
+                    }
+                },
+                '#app'
+            )
+            console.log(st)
+            let data = [
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                },
+                {
+                    name: 'zhangsan',
+                    age: 24,
+                    height: 174
+                }
+            ]
+            st.setOption(data)
+            st.start()
+            console.log(document.head)
+        </script>
+    </body>
+</html>
